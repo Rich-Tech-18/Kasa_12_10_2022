@@ -1,0 +1,29 @@
+.maintitle{
+    color: #FF6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 142.6%;
+    margin: 0;
+}
+
+.secondaryTitle{
+    color: #FF6060;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 142.6%;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .maintitle{
+        font-size:1.125rem;
+    }
+
+    .secondaryTitle{
+        font-size: 0.875rem;
+    }
+
+
+}

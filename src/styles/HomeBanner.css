@@ -1,0 +1,45 @@
+.HomeBanner {
+    margin: 5vh 5vw 0 5vw;
+    border-radius: 25px;
+    position: relative;
+}
+
+.HomeBanner img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 100%;
+    filter: brightness(0.7);
+}
+
+.HomeBanner p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 700px) {
+.HomeBanner {
+    margin: 3vh 3vw 0 3vw;
+}
+
+    .HomeBanner img{
+        height: 15vh;
+    }
+
+    .HomeBanner p{
+        font-size: 1.5rem;
+        white-space: normal;
+        width: 65%;
+        transform: translate(-65%, -50%);
+    }
+
+    .imgBanner{
+        height:14.0625rem !important;
+    }
+}

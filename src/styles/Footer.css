@@ -1,0 +1,29 @@
+.footer{
+    background: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 14.514vw;
+    margin-top: 5vh;
+}
+
+.footer p{
+    margin-top: 5vh;
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer{
+        height:auto;
+    }
+
+    .footer img{
+        margin-top: 5vh;
+    }
+
+    .footer p {
+        margin-bottom: 5vh;
+    }
+}

@@ -1,0 +1,23 @@
+.ContainerCard{
+    margin: 5vh 5vw 0 5vw;
+    border-radius: 25px;
+    position: relative;
+    background: #F6F6F6;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 700px) {
+    .ContainerCard{
+        flex-direction: column;
+        background: white;
+        margin: 2vh 3vw 0 3vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ContainerCard{
+        margin:2vh 3vw 0 3vw;
+    }
+}

@@ -1,0 +1,77 @@
+.containerTitle{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw 0 5vw;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.tagDisplay{
+    display: flex;
+}
+
+.positionProfil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ratingsProfil{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.containerAccordion{
+    display: flex;
+    justify-content: space-around;
+}
+
+.accordionList{
+    margin: 2rem auto;
+    width: 40.417vw;
+}
+
+
+@media screen and (max-width: 700px) {
+    .containerTitle{
+        flex-direction: column;
+    }
+
+    .containerProfil{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-top: 2vh;
+    }
+
+    .starGold{
+        width: 6vw;
+    }
+
+    .star{
+        width: 6vw;
+    }
+
+    .profilPicture{
+        
+        width: 10vw;
+    }
+
+    .profilTitle{
+        width: 60%;
+        font-size: 0.75rem;
+    }
+
+    .containerAccordion {
+        flex-direction: column;
+    }
+
+    .accordionList{
+        width: 90vw;
+        margin: 1rem auto;
+      }
+}

@@ -1,0 +1,21 @@
+.profilTitle{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 142.6%;    
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+    width: 5vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 2.2vw;
+}
+
+.profilPicture{
+    object-fit: cover;
+    width: 4.444vw;
+    border-radius: 50%;
+
+}
