@@ -14,7 +14,6 @@ function Appartement() {
     const param = useParams();
     const filterParam = datas.filter((title => title.id === param.idAppartement));
         if(filterParam[0] === undefined){
-        console.log('navigation');
         return <Navigate to='/404' replace></Navigate>
         } 
     const carouselPictures = filterParam.map(picture => picture.pictures);
